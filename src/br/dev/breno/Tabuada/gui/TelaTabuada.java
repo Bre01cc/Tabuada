@@ -99,18 +99,19 @@ public class TelaTabuada {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String multiplicando = textMultiplicando.getText();
-				String MinMultiplicador = textMinMultiplicador.getText();
-				String MaxMultiplicador = textMaxMultiplicador.getText();
-
+				String min = textMinMultiplicador.getText();
+				String max = textMaxMultiplicador.getText();
+				
+				// Convertendo valores de string para double
 				double multiplicandoDouble = Double.parseDouble(multiplicando);
-				double MinMultiplicadorDouble = Double.parseDouble(MinMultiplicador);
-				double MaxMultiplicadorDouble = Double.parseDouble(MaxMultiplicador);
-
+				double minDouble = Double.parseDouble(min);
+				double maxDouble = Double.parseDouble(max);
+				
+				
 				Tabuada tabuada = new Tabuada();
 				tabuada.setMultiplicando(multiplicandoDouble);
-				tabuada.setMinimoMultiplicador(MinMultiplicadorDouble);
-				tabuada.setMaximoMultiplicador(MaxMultiplicadorDouble);
-				tabuada.mostrarTabuada();
+				tabuada.setMinimoMultiplicador(minDouble);
+				tabuada.setMaximoMultiplicador(maxDouble);
 				
 				String[]tabuadaResult = tabuada.mostrarTabuada();
 				listTabuada.setListData(tabuadaResult);
