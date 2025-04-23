@@ -31,7 +31,7 @@ public class Tabuada {
 
     public String[] mostrarTabuada() {
        
-        // Faz uma cópia dos valores para não modificar os atributos da classe
+        
     	if (minimoMultiplicador > maximoMultiplicador) {
  			double troca = minimoMultiplicador;
  			minimoMultiplicador = maximoMultiplicador;

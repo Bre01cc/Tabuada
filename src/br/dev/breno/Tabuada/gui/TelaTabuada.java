@@ -121,13 +121,30 @@ public class TelaTabuada {
 //				System.out.println("Max.tiplicador:"+ MaxMultiplicador);
 
 			}
+	
 
 		});
+		buttonLimpar.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				textMultiplicando.setText(null);//retorna nulo
+				textMaxMultiplicador.setText(null);//retorna nulo
+				textMinMultiplicador.setText(null);//retorna nulo
+				listTabuada.setListData(new String[0]);// apagamos a tabuada usando um vetor que retornar nada
+				textMultiplicando.requestFocus();
+				
+			}
+		});
+		 
+		
 
 		// tornar a tela visivel "DEVE!!!" ser a ultima instrução
 		tela.setVisible(true);
 
 	}
+	
+	
 
 	private void exibirTabuada() {
 
