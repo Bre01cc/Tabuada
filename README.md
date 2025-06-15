@@ -1,6 +1,6 @@
 # Tabuada
 ## Sobre
-- Projeto desenvolvido durante as aulas de Lógica de Programação do curso técnico do SENAI, com o objetivo de aprender a criar e utilizar uma interface gráfica por meio da linguagem Java.
+Projeto desenvolvido durante as aulas de Lógica de Programação do curso técnico do SENAI, com o objetivo de aprender a criar e utilizar uma interface gráfica por meio da linguagem Java.
 Além disso, a proposta envolveu o uso da lógica de programação para desenvolver uma tabuada com abordagem diferenciada, indo além da simples exibição de resultados convencionais.
 ### Imagem da aplicação
 
